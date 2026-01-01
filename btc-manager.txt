@@ -78,7 +78,7 @@
           "RewardedVideo1": "REWARDED_VIDEO"
         },
         "MyCustomAds": {
-          "ad_showAdStatus": "1",
+          "ad_showAdStatus": "0",
           "ad_loadAdIdsType": "custom"
         },
         "appLovin": {
