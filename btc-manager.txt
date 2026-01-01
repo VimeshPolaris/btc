@@ -26,7 +26,7 @@
         "app_backPressAdStatus": "1",
         "app_backPressAdTypePriority": "interstitial",
         "app_adPlatformPriority": "admob,facebook,unity",
-        "app_inter_click": "2",
+        "app_inter_click": "1",
         "app_back_inter_click": "1",
         "app_adPlatformPriorityInterstitial": "admob",
         "app_adPlatformPriorityNative": "facebook",
