@@ -1,136 +1,133 @@
 {
-  "status": 1,
-  "status_code": 200,
-  "msg": "Ads configuration loaded successfully",
-  "data": {
-    "id": 101,
-    "name": "Ads Master Config",
-    "secret_key": "ads_secret_key_123456",
-    "data": {
-      "STATUS": true,
-      "MSG": "OK",
-       "APP_SETTINGS": {
-        "app_name": "My Ads App",
-        "app_accountLink": "https://myapp.example.com",
-        "app_packageName": "com.example.myadsapp",
-        "app_privacyPolicyLink": "https://myapp.example.com/privacy",
-        "app_termsLink": "https://myapp.example.com/terms",
-        "app_updateAppDialogStatus": "1",
-        "app_versionCode": "25",
-        "app_redirectOtherAppStatus": "0",
-        "app_loader_time": "3",
-        "app_adShowStatus": "1",
-        "app_showAdBadge": "1",
-        "app_AppOpenAdStatus": "1",
-        "app_splashAdType": "interstitial",
-        "app_backPressAdStatus": "1",
-        "app_backPressAdTypePriority": "interstitial",
-        "app_adPlatformPriority": "admob,facebook,unity",
-        "app_inter_click": "1",
-        "app_back_inter_click": "1",
-        "app_adPlatformPriorityInterstitial": "admob",
-        "app_adPlatformPriorityNative": "facebook",
-        "app_adPlatformPriorityBanner": "admob",
-        "appNativeAdPlaceHolder": "1",
-        "appBannerAdPlaceHolder": "1",
-        "appAdPlaceHolderText": "Loading Ad...",
-        "appAdsButtonColor": "#FF5722",
-        "appAdsButtonTextColor": "#FFFFFF",
-        "adsNativeBgColor": "#F5F5F5",
-        "apponResumeAd": "1",
-        "appAutoUrlonPage": "1",
-        "appAutoPageUrl": "https://promo.example.com",
-        "appNativeBanner": "1",
-        "appMultiNative": "0",
-        "StopApp": "0",
-        "appExitGameURL": "https://exit.example.com",
-        "appQuizHeaderShow": "1",
-        "appAppopenInterstitialAd": "1",
-        "appQuizHeaderUrl": "https://quiz.example.com",
-        "appOpenAdsclick": "1",
-        "appAutoPageUrlCount": "3",
-        "appBackAdPlatform": "admob",
-        "ExitDialog": "1",
-        "UpgradeMining": "1",
-        "UpgradeMiningInLowBalance": "0",
-        "UpgradeMiningWithPremium": "1",
-        "facebook_app_id": "123456789012345",
-        "facebook_secret_key": "fb_secret_key_example"
-      },
-        "PLACEMENT": {
-    "admob": {
-      "ad_showAdStatus": "1",
-      "ad_loadAdIdsType": "test",
-      "AppID": "ca-app-pub-3940256099942544~3347511713",
-      "Banner1": "ca-app-pub-3940256099942544/6300978111",
-      "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
-      "Native1": "ca-app-pub-3940256099942544/2247696110",
-      "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
-      "AppOpen1": "ca-app-pub-3940256099942544/3419835294"
-    },
-    "facebook": {
-      "AppID": "123456789012345",
-      "ad_showAdStatus": "1",
-      "ad_loadAdIdsType": "test",
-      "Banner1": "IMG_16_9_APP_INSTALL",
-      "Interstitial1": "INTERSTITIAL",
-      "Native1": "NATIVE",
-      "RewardedVideo1": "REWARDED_VIDEO"
-    },
-    "MyCustomAds": {
-      "ad_showAdStatus": "0",
-      "ad_loadAdIdsType": "custom"
-    },
-    "appLovin": {
-      "AppID": "TEST_APPLOVIN_SDK_KEY",
-      "ad_showAdStatus": "1",
-      "ad_loadAdIdsType": "test",
-      "Banner1": "TEST_BANNER",
-      "Interstitial1": "TEST_INTERSTITIAL",
-      "Native1": "TEST_NATIVE",
-      "RewardedVideo1": "TEST_REWARDED"
-    },
-    "unity": {
-      "AppID": "1234567",
-      "ad_showAdStatus": "1",
-      "ad_loadAdIdsType": "test",
-      "Banner1": "Banner_Android",
-      "Interstitial1": "Interstitial_Android",
-      "Native1": "Native_Android"
-    }
-  },
-      "Advertise_List": [
-        {
-          "ad_id": "1",
-          "app_name": "Cool Game",
-          "app_packageName": "com.cool.game",
-          "app_logo": "https://cdn.example.com/logo1.png",
-          "app_banner": "https://cdn.example.com/banner1.png",
-          "app_shortDecription": "Play and enjoy unlimited fun",
-          "app_buttonName": "Install",
-          "app_rating": "4.6",
-          "app_download": "1M+",
-          "app_AdFormat": "native"
+      "status": 1,
+      "status_code": 200,
+      "msg": "Ads configuration loaded successfully",
+      "data": {
+        "id": 101,
+        "name": "Ads Master Config",
+        "secret_key": "ads_secret_key_123456",
+        "data": {
+          "STATUS": true,
+          "MSG": "OK",
+          "APP_SETTINGS": {
+            "app_name": "My Ads App",
+            "app_accountLink": "https://myapp.example.com",
+            "app_packageName": "com.example.myadsapp",
+            "app_privacyPolicyLink": "https://myapp.example.com/privacy",
+            "app_termsLink": "https://myapp.example.com/terms",
+            "app_updateAppDialogStatus": "1",
+            "app_versionCode": "1",
+            "app_redirectOtherAppStatus": "0",
+            "app_loader_time": "3",
+            "app_adShowStatus": "1",
+            "app_showAdBadge": "1",
+            "app_AppOpenAdStatus": "1",
+            "app_splashAdType": "AppOpen",
+            "app_backPressAdStatus": "1",
+            "app_backPressAdTypePriority": "interstitial",
+            "app_adPlatformPriority": "admob,facebook,unity",
+            "app_inter_click": "1",
+            "app_back_inter_click": "1",
+            "app_adPlatformPriorityInterstitial": "admob",
+            "app_adPlatformPriorityNative": "admob",
+            "app_adPlatformPriorityBanner": "admob",
+            "appNativeAdPlaceHolder": "1",
+            "appBannerAdPlaceHolder": "1",
+            "appAdPlaceHolderText": "Loading Ad...",
+            "appAdsButtonColor": "#FF5722",
+            "appAdsButtonTextColor": "#FFFFFF",
+            "adsNativeBgColor": "#F5F5F5",
+            "apponResumeAd": "1",
+            "appAutoUrlonPage": "1",
+            "appAutoPageUrl": "https://promo.example.com",
+            "appNativeBanner": "1",
+            "appMultiNative": "0",
+            "StopApp": "0",
+            "appExitGameURL": "https://exit.example.com",
+            "appQuizHeaderShow": "1",
+            "appAppopenInterstitialAd": "0",
+            "appQuizHeaderUrl": "https://quiz.example.com",
+            "appOpenAdsclick": "1",
+            "appAutoPageUrlCount": "3",
+            "appBackAdPlatform": "admob",
+            "ExitDialog": "1",
+            "UpgradeMining": "1",
+            "UpgradeMiningInLowBalance": "0",
+            "UpgradeMiningWithPremium": "1",
+            "facebook_app_id": "123456789012345",
+            "facebook_secret_key": "fb_secret_key_example"
+          },
+          "PLACEMENT": {
+            "admob": {
+              "ad_showAdStatus": "1",
+              "ad_loadAdIdsType": "test",
+              "AppID": "ca-app-pub-3940256099942544~3347511713",
+              "Banner1": "ca-app-pub-3940256099942544/6300978111",
+              "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
+              "Native1": "ca-app-pub-3940256099942544/2247696110",
+              "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
+              "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
+            },
+            "facebook": {
+              "AppID": "123456789012345",
+              "ad_showAdStatus": "1",
+              "ad_loadAdIdsType": "test",
+              "Banner1": "IMG_16_9_APP_INSTALL",
+              "Interstitial1": "INTERSTITIAL",
+              "Native1": "NATIVE",
+              "RewardedVideo1": "REWARDED_VIDEO"
+            },
+            "MyCustomAds": {
+              "ad_showAdStatus": "0",
+              "ad_loadAdIdsType": "custom"
+            },
+            "appLovin": {
+              "AppID": "TEST_APPLOVIN_SDK_KEY",
+              "ad_showAdStatus": "1",
+              "ad_loadAdIdsType": "test",
+              "Banner1": "TEST_BANNER",
+              "Interstitial1": "TEST_INTERSTITIAL",
+              "Native1": "TEST_NATIVE",
+              "RewardedVideo1": "TEST_REWARDED"
+            },
+            "unity": {
+              "AppID": "1234567",
+              "ad_showAdStatus": "1",
+              "ad_loadAdIdsType": "test",
+              "Banner1": "Banner_Android",
+              "Interstitial1": "Interstitial_Android",
+              "Native1": "Native_Android"
+            }
+          },
+          "Advertise_List": [
+            {
+              "ad_id": "1",
+              "app_name": "Cool Game",
+              "app_packageName": "com.cool.game",
+              "app_logo": "https://cdn.example.com/logo1.png",
+              "app_banner": "https://cdn.example.com/banner1.png",
+              "app_shortDecription": "Play and enjoy unlimited fun",
+              "app_buttonName": "Install",
+              "app_rating": "4.6",
+              "app_download": "1M+",
+              "app_AdFormat": "native"
+            },
+            {
+              "ad_id": "2",
+              "app_name": "Finance App",
+              "app_packageName": "com.finance.app",
+              "app_logo": "https://cdn.example.com/logo2.png",
+              "app_banner": "https://cdn.example.com/banner2.png",
+              "app_shortDecription": "Manage your money smartly",
+              "app_buttonName": "Download",
+              "app_rating": "4.4",
+              "app_download": "500K+",
+              "app_AdFormat": "banner"
+            }
+          ],
+          "EXTRA_DATA": {"server_time": "2025-01-15T10:30:00Z", "region": "IN"}
         },
-        {
-          "ad_id": "2",
-          "app_name": "Finance App",
-          "app_packageName": "com.finance.app",
-          "app_logo": "https://cdn.example.com/logo2.png",
-          "app_banner": "https://cdn.example.com/banner2.png",
-          "app_shortDecription": "Manage your money smartly",
-          "app_buttonName": "Download",
-          "app_rating": "4.4",
-          "app_download": "500K+",
-          "app_AdFormat": "banner"
-        }
-      ],
-      "EXTRA_DATA": {
-        "server_time": "2025-01-15T10:30:00Z",
-        "region": "IN"
+        "created_at": "2025-01-01T09:00:00.000Z",
+        "updated_at": "2025-01-15T12:00:00.000Z"
       }
-    },
-    "created_at": "2025-01-01T09:00:00.000Z",
-    "updated_at": "2025-01-15T12:00:00.000Z"
-  }
-}
+    }
