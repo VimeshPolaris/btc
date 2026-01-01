@@ -57,48 +57,48 @@
         "facebook_app_id": "123456789012345",
         "facebook_secret_key": "fb_secret_key_example"
       },
-      "PLACEMENT": {
-        "admob": {
-          "ad_showAdStatus": "1",
-          "ad_loadAdIdsType": "live",
-          "AppID": "ca-app-pub-xxxxxxxx~yyyyyyyy",
-          "Banner1": "ca-app-pub-xxxxxxxx/banner1",
-          "Interstitial1": "ca-app-pub-xxxxxxxx/interstitial1",
-          "Native1": "ca-app-pub-xxxxxxxx/native1",
-          "RewardedVideo1": "ca-app-pub-xxxxxxxx/rewarded1",
-          "AppOpen1": "ca-app-pub-xxxxxxxx/appopen1"
-        },
-        "facebook": {
-          "AppID": "987654321098765",
-          "ad_showAdStatus": "1",
-          "ad_loadAdIdsType": "live",
-          "Banner1": "IMG_16_9_APP_INSTALL",
-          "Interstitial1": "INTERSTITIAL",
-          "Native1": "NATIVE",
-          "RewardedVideo1": "REWARDED_VIDEO"
-        },
-        "MyCustomAds": {
-          "ad_showAdStatus": "0",
-          "ad_loadAdIdsType": "custom"
-        },
-        "appLovin": {
-          "AppID": "applovin_app_id",
-          "ad_showAdStatus": "1",
-          "ad_loadAdIdsType": "live",
-          "Banner1": "applovin_banner",
-          "Interstitial1": "applovin_interstitial",
-          "Native1": "applovin_native",
-          "RewardedVideo1": "applovin_rewarded"
-        },
-        "unity": {
-          "AppID": "unity_app_id",
-          "ad_showAdStatus": "1",
-          "ad_loadAdIdsType": "live",
-          "Banner1": "unity_banner",
-          "Interstitial1": "unity_interstitial",
-          "Native1": "unity_native"
-        }
-      },
+        "PLACEMENT": {
+    "admob": {
+      "ad_showAdStatus": "1",
+      "ad_loadAdIdsType": "test",
+      "AppID": "ca-app-pub-3940256099942544~3347511713",
+      "Banner1": "ca-app-pub-3940256099942544/6300978111",
+      "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
+      "Native1": "ca-app-pub-3940256099942544/2247696110",
+      "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
+      "AppOpen1": "ca-app-pub-3940256099942544/3419835294"
+    },
+    "facebook": {
+      "AppID": "123456789012345",
+      "ad_showAdStatus": "1",
+      "ad_loadAdIdsType": "test",
+      "Banner1": "IMG_16_9_APP_INSTALL",
+      "Interstitial1": "INTERSTITIAL",
+      "Native1": "NATIVE",
+      "RewardedVideo1": "REWARDED_VIDEO"
+    },
+    "MyCustomAds": {
+      "ad_showAdStatus": "0",
+      "ad_loadAdIdsType": "custom"
+    },
+    "appLovin": {
+      "AppID": "TEST_APPLOVIN_SDK_KEY",
+      "ad_showAdStatus": "1",
+      "ad_loadAdIdsType": "test",
+      "Banner1": "TEST_BANNER",
+      "Interstitial1": "TEST_INTERSTITIAL",
+      "Native1": "TEST_NATIVE",
+      "RewardedVideo1": "TEST_REWARDED"
+    },
+    "unity": {
+      "AppID": "1234567",
+      "ad_showAdStatus": "1",
+      "ad_loadAdIdsType": "test",
+      "Banner1": "Banner_Android",
+      "Interstitial1": "Interstitial_Android",
+      "Native1": "Native_Android"
+    }
+  },
       "Advertise_List": [
         {
           "ad_id": "1",
