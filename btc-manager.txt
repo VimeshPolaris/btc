@@ -25,12 +25,14 @@
             "app_splashAdType": "AppOpen",
             "app_backPressAdStatus": "1",
             "app_backPressAdTypePriority": "interstitial",
-            "app_adPlatformPriority": "admob,facebook,unity",
             "app_inter_click": "1",
             "app_back_inter_click": "1",
-            "app_adPlatformPriorityInterstitial": "admob",
-            "app_adPlatformPriorityNative": "admob",
-            "app_adPlatformPriorityBanner": "admob",
+            "AD_PRIORITY": {
+              "appopen": ["admob", "adx1", "adx2", "facebook"],
+              "interstitial": ["admob", "facebook", "adx1", "adx2"],
+              "native": ["admob", "adx1", "facebook"],
+              "banner": ["admob", "facebook"]
+            },
             "appNativeAdPlaceHolder": "1",
             "appBannerAdPlaceHolder": "1",
             "appAdPlaceHolderText": "Loading Ad...",
@@ -53,22 +55,53 @@
             "ExitDialog": "1",
             "UpgradeMining": "1",
             "UpgradeMiningInLowBalance": "0",
-            "UpgradeMiningWithPremium": "1",
+            "UpgradeMiningWithPremium": "0",
+            "app_onboarding_show_circular_indicator": "1",
             "facebook_app_id": "123456789012345",
             "facebook_secret_key": "fb_secret_key_example"
           },
           "PLACEMENT": {
-            "admob": {
-              "ad_showAdStatus": "1",
-              "ad_loadAdIdsType": "test",
-              "AppID": "ca-app-pub-3940256099942544~3347511713",
-              "Banner1": "ca-app-pub-3940256099942544/6300978111",
-              "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
-              "Native1": "ca-app-pub-3940256099942544/2247696110",
-              "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
-              "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
+            "google_instances": {
+              "admob": {
+                "network": "google",
+                "priority": 1,
+                "ad_showAdStatus": "1",
+                "ad_loadAdIdsType": "test",
+                "AppID": "ca-app-pub-3940256099942544~3347511713",
+                "Banner1": "ca-app-pub-3940256099942544/6300978111",
+                "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
+                "Native1": "ca-app-pub-3940256099942544/2247696110",
+                "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
+                "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
+              },
+              "adx1": {
+                "network": "google",
+                "priority": 2,
+                "ad_showAdStatus": "1",
+                "ad_loadAdIdsType": "live",
+                "AppID": "ca-app-pub-3940256099942544~3347511713",
+                "Banner1": "ca-app-pub-3940256099942544/6300978111",
+                "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
+                "Native1": "ca-app-pub-3940256099942544/2247696110",
+                "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
+                "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
+              },
+              "adx2": {
+                "network": "google",
+                "priority": 3,
+                "ad_showAdStatus": "1",
+                "ad_loadAdIdsType": "live",
+                "AppID": "ca-app-pub-3940256099942544~3347511713",
+                "Banner1": "ca-app-pub-3940256099942544/6300978111",
+                "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
+                "Native1": "ca-app-pub-3940256099942544/2247696110",
+                "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
+                "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
+              }
             },
             "facebook": {
+              "network": "facebook",
+              "priority": 4,
               "AppID": "123456789012345",
               "ad_showAdStatus": "1",
               "ad_loadAdIdsType": "test",
@@ -80,23 +113,6 @@
             "MyCustomAds": {
               "ad_showAdStatus": "0",
               "ad_loadAdIdsType": "custom"
-            },
-            "appLovin": {
-              "AppID": "TEST_APPLOVIN_SDK_KEY",
-              "ad_showAdStatus": "1",
-              "ad_loadAdIdsType": "test",
-              "Banner1": "TEST_BANNER",
-              "Interstitial1": "TEST_INTERSTITIAL",
-              "Native1": "TEST_NATIVE",
-              "RewardedVideo1": "TEST_REWARDED"
-            },
-            "unity": {
-              "AppID": "1234567",
-              "ad_showAdStatus": "1",
-              "ad_loadAdIdsType": "test",
-              "Banner1": "Banner_Android",
-              "Interstitial1": "Interstitial_Android",
-              "Native1": "Native_Android"
             }
           },
           "Advertise_List": [
