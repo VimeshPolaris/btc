@@ -42,6 +42,9 @@
             "apponResumeAd": "1",
             "appAutoUrlonPage": "1",
             "appAutoPageUrl": "https://promo.example.com",
+            "useCustomUrlInsteadOfAds": "0",
+            "useAppOpenWhenCustomUrlInsteadOfAdsIsOn": "0",
+            "showCustomUrlOnAdFailure": "0",
             "appNativeBanner": "1",
             "appMultiNative": "0",
             "StopApp": "0",
@@ -50,13 +53,17 @@
             "appAppopenInterstitialAd": "0",
             "appQuizHeaderUrl": "https://quiz.example.com",
             "appOpenAdsclick": "1",
-            "appAutoPageUrlCount": "3",
+            "appAutoPageUrlCount": "2",
             "appBackAdPlatform": "admob",
             "ExitDialog": "1",
             "UpgradeMining": "1",
             "UpgradeMiningInLowBalance": "0",
-            "UpgradeMiningWithPremium": "0",
+            "UpgradeMiningWithPremium": "1",
+            "MiningScreenWithPremium": "1",
             "app_onboarding_show_circular_indicator": "1",
+            "native_in_mining_screen": "1",
+            "native_in_rewards_screen": "1",
+            "native_in_help_center_screen": "1",
             "facebook_app_id": "123456789012345",
             "facebook_secret_key": "fb_secret_key_example"
           },
@@ -104,11 +111,11 @@
               "priority": 4,
               "AppID": "123456789012345",
               "ad_showAdStatus": "1",
-              "ad_loadAdIdsType": "test",
-              "Banner1": "IMG_16_9_APP_INSTALL",
-              "Interstitial1": "INTERSTITIAL",
-              "Native1": "NATIVE",
-              "RewardedVideo1": "REWARDED_VIDEO"
+              "ad_loadAdIdsType": "live",
+              "Banner1": "123456789012345_123456789012345",
+              "Interstitial1": "123456789012345_123456789012345",
+              "Native1": "123456789012345_123456789012345",
+              "RewardedVideo1": "123456789012345_123456789012345"
             },
             "MyCustomAds": {
               "ad_showAdStatus": "0",
@@ -118,11 +125,13 @@
           "Advertise_List": [
             {
               "ad_id": "1",
-              "app_name": "Cool Game",
-              "app_packageName": "com.cool.game",
-              "app_logo": "https://cdn.example.com/logo1.png",
-              "app_banner": "https://cdn.example.com/banner1.png",
-              "app_shortDecription": "Play and enjoy unlimited fun",
+              "app_name": "BTC Mining",
+              "app_packageName": "https://www.google.com/",
+              "app_logo":
+                  "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
+              "app_banner":
+                  "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
+              "app_shortDecription": "Play and enjoy unlimited mining",
               "app_buttonName": "Install",
               "app_rating": "4.6",
               "app_download": "1M+",
@@ -130,15 +139,17 @@
             },
             {
               "ad_id": "2",
-              "app_name": "Finance App",
-              "app_packageName": "com.finance.app",
-              "app_logo": "https://cdn.example.com/logo2.png",
-              "app_banner": "https://cdn.example.com/banner2.png",
-              "app_shortDecription": "Manage your money smartly",
-              "app_buttonName": "Download",
-              "app_rating": "4.4",
-              "app_download": "500K+",
-              "app_AdFormat": "banner"
+              "app_name": "BTC Mining",
+              "app_packageName": "https://www.google.com/",
+              "app_logo":
+                  "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
+              "app_banner":
+                  "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
+              "app_shortDecription": "Play and enjoy unlimited mining",
+              "app_buttonName": "Install",
+              "app_rating": "4.6",
+              "app_download": "1M+",
+              "app_AdFormat": "native"
             }
           ],
           "EXTRA_DATA": {"server_time": "2025-01-15T10:30:00Z", "region": "IN"}
