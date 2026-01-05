@@ -1,160 +1,161 @@
 {
-      "status": 1,
-      "status_code": 200,
-      "msg": "Ads configuration loaded successfully",
-      "data": {
-        "id": 101,
-        "name": "Ads Master Config",
-        "secret_key": "ads_secret_key_123456",
-        "data": {
-          "STATUS": true,
-          "MSG": "OK",
-          "APP_SETTINGS": {
-            "app_name": "My Ads App",
-            "app_accountLink": "https://myapp.example.com",
-            "app_packageName": "com.example.myadsapp",
-            "app_privacyPolicyLink": "https://myapp.example.com/privacy",
-            "app_termsLink": "https://myapp.example.com/terms",
-            "app_updateAppDialogStatus": "1",
-            "app_versionCode": "1",
-            "app_redirectOtherAppStatus": "0",
-            "app_loader_time": "3",
-            "app_adShowStatus": "1",
-            "app_showAdBadge": "1",
-            "app_AppOpenAdStatus": "1",
-            "app_splashAdType": "AppOpen",
-            "app_backPressAdStatus": "1",
-            "app_backPressAdTypePriority": "interstitial",
-            "app_inter_click": "1",
-            "app_back_inter_click": "1",
-            "AD_PRIORITY": {
-              "appopen": ["admob", "adx1", "adx2", "facebook"],
-              "interstitial": ["admob", "facebook", "adx1", "adx2"],
-              "native": ["admob", "adx1", "facebook"],
-              "banner": ["admob", "facebook"]
-            },
-            "appNativeAdPlaceHolder": "1",
-            "appBannerAdPlaceHolder": "1",
-            "appAdPlaceHolderText": "Loading Ad...",
-            "appAdsButtonColor": "#FF5722",
-            "appAdsButtonTextColor": "#FFFFFF",
-            "adsNativeBgColor": "#F5F5F5",
-            "apponResumeAd": "1",
-            "appAutoUrlonPage": "1",
-            "appAutoPageUrl": "https://promo.example.com",
-            "useCustomUrlInsteadOfAds": "0",
-            "useAppOpenWhenCustomUrlInsteadOfAdsIsOn": "0",
-            "showCustomUrlOnAdFailure": "0",
-            "appNativeBanner": "1",
-            "appMultiNative": "0",
-            "StopApp": "0",
-            "appExitGameURL": "https://exit.example.com",
-            "appQuizHeaderShow": "1",
-            "appAppopenInterstitialAd": "0",
-            "appQuizHeaderUrl": "https://quiz.example.com",
-            "appOpenAdsclick": "1",
-            "appAutoPageUrlCount": "2",
-            "appBackAdPlatform": "admob",
-            "ExitDialog": "1",
-            "UpgradeMining": "1",
-            "UpgradeMiningInLowBalance": "0",
-            "UpgradeMiningWithPremium": "1",
-            "MiningScreenWithPremium": "1",
-            "app_onboarding_show_circular_indicator": "1",
-            "native_in_mining_screen": "1",
-            "native_in_rewards_screen": "1",
-            "native_in_help_center_screen": "1",
-            "facebook_app_id": "123456789012345",
-            "facebook_secret_key": "fb_secret_key_example"
-          },
-          "PLACEMENT": {
-            "google_instances": {
-              "admob": {
-                "network": "google",
-                "priority": 1,
-                "ad_showAdStatus": "1",
-                "ad_loadAdIdsType": "test",
-                "AppID": "ca-app-pub-3940256099942544~3347511713",
-                "Banner1": "ca-app-pub-3940256099942544/6300978111",
-                "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
-                "Native1": "ca-app-pub-3940256099942544/2247696110",
-                "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
-                "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
-              },
-              "adx1": {
-                "network": "google",
-                "priority": 2,
-                "ad_showAdStatus": "1",
-                "ad_loadAdIdsType": "live",
-                "AppID": "ca-app-pub-3940256099942544~3347511713",
-                "Banner1": "ca-app-pub-3940256099942544/6300978111",
-                "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
-                "Native1": "ca-app-pub-3940256099942544/2247696110",
-                "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
-                "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
-              },
-              "adx2": {
-                "network": "google",
-                "priority": 3,
-                "ad_showAdStatus": "1",
-                "ad_loadAdIdsType": "live",
-                "AppID": "ca-app-pub-3940256099942544~3347511713",
-                "Banner1": "ca-app-pub-3940256099942544/6300978111",
-                "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
-                "Native1": "ca-app-pub-3940256099942544/2247696110",
-                "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
-                "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
-              }
-            },
-            "facebook": {
-              "network": "facebook",
-              "priority": 4,
-              "AppID": "123456789012345",
-              "ad_showAdStatus": "1",
-              "ad_loadAdIdsType": "live",
-              "Banner1": "123456789012345_123456789012345",
-              "Interstitial1": "123456789012345_123456789012345",
-              "Native1": "123456789012345_123456789012345",
-              "RewardedVideo1": "123456789012345_123456789012345"
-            },
-            "MyCustomAds": {
-              "ad_showAdStatus": "0",
-              "ad_loadAdIdsType": "custom"
-            }
-          },
-          "Advertise_List": [
-            {
-              "ad_id": "1",
-              "app_name": "BTC Mining",
-              "app_packageName": "https://www.google.com/",
-              "app_logo":
-                  "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
-              "app_banner":
-                  "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
-              "app_shortDecription": "Play and enjoy unlimited mining",
-              "app_buttonName": "Install",
-              "app_rating": "4.6",
-              "app_download": "1M+",
-              "app_AdFormat": "native"
-            },
-            {
-              "ad_id": "2",
-              "app_name": "BTC Mining",
-              "app_packageName": "https://www.google.com/",
-              "app_logo":
-                  "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
-              "app_banner":
-                  "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
-              "app_shortDecription": "Play and enjoy unlimited mining",
-              "app_buttonName": "Install",
-              "app_rating": "4.6",
-              "app_download": "1M+",
-              "app_AdFormat": "native"
-            }
-          ],
-          "EXTRA_DATA": {"server_time": "2025-01-15T10:30:00Z", "region": "IN"}
+  "status": 1,
+  "status_code": 200,
+  "msg": "Ads configuration loaded successfully",
+  "data": {
+    "id": 101,
+    "name": "Ads Master Config",
+    "secret_key": "ads_secret_key_123456",
+    "data": {
+      "STATUS": true,
+      "MSG": "OK",
+      "APP_SETTINGS": {
+        "app_name": "My Ads App",
+        "app_accountLink": "https://myapp.example.com",
+        "app_packageName": "com.example.myadsapp",
+        "app_privacyPolicyLink": "https://myapp.example.com/privacy",
+        "app_termsLink": "https://myapp.example.com/terms",
+        "app_updateAppDialogStatus": "1",
+        "app_versionCode": "1",
+        "app_redirectOtherAppStatus": "0",
+        "app_loader_time": "3",
+        "app_adShowStatus": "1",
+        "app_showAdBadge": "1",
+        "app_AppOpenAdStatus": "1",
+        "app_splashAdType": "AppOpen",
+        "app_backPressAdStatus": "1",
+        "app_backPressAdTypePriority": "interstitial",
+        "app_inter_click": "1",
+        "app_back_inter_click": "1",
+        "AD_PRIORITY": {
+          "appopen": ["admob"],
+          "interstitial": ["admob", "facebook", "adx1", "adx2"],
+          "native": ["admob", "adx1", "facebook"],
+          "banner": ["admob", "facebook"],
+          "rewarded": ["admob", "adx1", "facebook"]
         },
-        "created_at": "2025-01-01T09:00:00.000Z",
-        "updated_at": "2025-01-15T12:00:00.000Z"
-      }
-    }
+        "appNativeAdPlaceHolder": "1",
+        "appBannerAdPlaceHolder": "1",
+        "appAdPlaceHolderText": "Loading Ad...",
+        "appAdsButtonColor": "#FF5722",
+        "appAdsButtonTextColor": "#FFFFFF",
+        "adsNativeBgColor": "#F5F5F5",
+        "apponResumeAd": "1",
+        "appAutoUrlonPage": "1",
+        "appAutoPageUrl": "https://promo.example.com",
+        "useCustomUrlInsteadOfAds": "0",
+        "useAppOpenWhenCustomUrlInsteadOfAdsIsOn": "0",
+        "showCustomUrlOnAdFailure": "0",
+        "appNativeBanner": "1",
+        "appMultiNative": "0",
+        "StopApp": "0",
+        "appExitGameURL": "https://exit.example.com",
+        "appQuizHeaderShow": "1",
+        "appAppopenInterstitialAd": "0",
+        "appQuizHeaderUrl": "https://quiz.example.com",
+        "appOpenAdsclick": "1",
+        "appAutoPageUrlCount": "2",
+        "appBackAdPlatform": "admob",
+        "ExitDialog": "1",
+        "UpgradeMining": "1",
+        "UpgradeMiningInLowBalance": "0",
+        "UpgradeMiningWithPremium": "1",
+        "MiningScreenWithPremium": "1",
+        "app_onboarding_show_circular_indicator": "1",
+        "native_in_mining_screen": "1",
+        "native_in_rewards_screen": "1",
+        "native_in_help_center_screen": "1",
+        "facebook_app_id": "123456789012345",
+        "facebook_secret_key": "fb_secret_key_example"
+      },
+      "PLACEMENT": {
+        "google_instances": {
+          "admob": {
+            "network": "google",
+            "priority": 1,
+            "ad_showAdStatus": "1",
+            "ad_loadAdIdsType": "test",
+            "AppID": "ca-app-pub-3940256099942544~3347511713",
+            "Banner1": "ca-app-pub-3940256099942544/6300978111",
+            "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
+            "Native1": "ca-app-pub-3940256099942544/2247696110",
+            "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
+            "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
+          },
+          "adx1": {
+            "network": "google",
+            "priority": 2,
+            "ad_showAdStatus": "1",
+            "ad_loadAdIdsType": "live",
+            "AppID": "ca-app-pub-3940256099942544~3347511713",
+            "Banner1": "ca-app-pub-3940256099942544/6300978111",
+            "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
+            "Native1": "ca-app-pub-3940256099942544/2247696110",
+            "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
+            "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
+          },
+          "adx2": {
+            "network": "google",
+            "priority": 3,
+            "ad_showAdStatus": "1",
+            "ad_loadAdIdsType": "live",
+            "AppID": "ca-app-pub-3940256099942544~3347511713",
+            "Banner1": "ca-app-pub-3940256099942544/6300978111",
+            "Interstitial1": "ca-app-pub-3940256099942544/1033173712",
+            "Native1": "ca-app-pub-3940256099942544/2247696110",
+            "RewardedVideo1": "ca-app-pub-3940256099942544/5224354917",
+            "AppOpen1": "ca-app-pub-3940256099942544/9257395921"
+          }
+        },
+        "facebook": {
+          "network": "facebook",
+          "priority": 4,
+          "AppID": "123456789012345",
+          "ad_showAdStatus": "1",
+          "ad_loadAdIdsType": "live",
+          "Banner1": "123456789012345_123456789012345",
+          "Interstitial1": "123456789012345_123456789012345",
+          "Native1": "123456789012345_123456789012345",
+          "RewardedVideo1": "123456789012345_123456789012345"
+        },
+        "MyCustomAds": {
+          "ad_showAdStatus": "0",
+          "ad_loadAdIdsType": "custom"
+        }
+      },
+      "Advertise_List": [
+        {
+          "ad_id": "1",
+          "app_name": "BTC Mining",
+          "app_packageName": "https://www.google.com/",
+          "app_logo":
+              "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
+          "app_banner":
+              "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
+          "app_shortDecription": "Play and enjoy unlimited mining",
+          "app_buttonName": "Install",
+          "app_rating": "4.6",
+          "app_download": "1M+",
+          "app_AdFormat": "native"
+        },
+        {
+          "ad_id": "2",
+          "app_name": "BTC Mining",
+          "app_packageName": "https://www.google.com/",
+          "app_logo":
+              "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
+          "app_banner":
+              "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80",
+          "app_shortDecription": "Play and enjoy unlimited mining",
+          "app_buttonName": "Install",
+          "app_rating": "4.6",
+          "app_download": "1M+",
+          "app_AdFormat": "native"
+        }
+      ],
+      "EXTRA_DATA": {"server_time": "2025-01-15T10:30:00Z", "region": "IN"}
+    },
+    "created_at": "2025-01-01T09:00:00.000Z",
+    "updated_at": "2025-01-15T12:00:00.000Z"
+  }
+}
