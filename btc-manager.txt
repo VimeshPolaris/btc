@@ -62,9 +62,9 @@
         "UpgradeMiningWithPremium": "1",
         "MiningScreenWithPremium": "1",
         "app_onboarding_show_circular_indicator": "1",
-        "native_in_mining_screen": "1",
-        "native_in_rewards_screen": "1",
-        "native_in_help_center_screen": "1",
+        "native_in_mining_screen": "0",
+        "native_in_rewards_screen": "0",
+        "native_in_help_center_screen": "0",
         "facebook_app_id": "123456789012345",
         "facebook_secret_key": "fb_secret_key_example"
       },
