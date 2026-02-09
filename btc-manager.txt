@@ -59,7 +59,7 @@
         "ExitDialog": "1",
         "UpgradeMining": "1",
         "UpgradeMiningInLowBalance": "0",
-        "UpgradeMiningWithPremium": "1",
+        "UpgradeMiningWithPremium": "0",
         "MiningScreenWithPremium": "1",
         "app_onboarding_show_circular_indicator": "1",
         "native_in_mining_screen": "0",
